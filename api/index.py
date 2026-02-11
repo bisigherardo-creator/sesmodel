@@ -1,6 +1,7 @@
 import os
 from fastapi import FastAPI, Query
 from fastapi.responses import JSONResponse
+from mangum import Mangum
 
 app = FastAPI()
 
