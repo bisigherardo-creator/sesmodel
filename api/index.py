@@ -45,3 +45,6 @@ def analyze(
         "scores": scores,
         "ses_index": round(ses_index, 2),
     }
+from mangum import Mangum
+
+handler = Mangum(app)
